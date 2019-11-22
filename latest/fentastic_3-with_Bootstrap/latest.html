@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	
+	<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+		<video autoplay loop id="video-background" muted plays-inline>
+				<source src="video/bgvideo.mp4">
+		</video> 
+	<div class="all">
+		<div class="container">
+			<section>
+				<div class="row overlay">
+					<div>
+						<img class="logo" src="images/colorful-casino-chips-on-transparent-600w-448843981.jpg">
+					</div>
+					<div class="card">
+						<div id="one">
+							<div class="box1 boxing">1</div>
+							<div class="box2 boxing">2</div>
+							<div class="box3 boxing">3</div>
+							<div class="box boxing"><img class="box-logo" src="images/mini_logo.png"></div>
+						</div>
+						<div id="one">
+							<div class="mid-box"></div>
+							<div class="mid-box"></div>
+							<div class="mid-box"></div>
+							<div class="mid-box"></div>
+						</div>
+						<div id="one">
+							<div class="box4 boxing">4</div>
+							<div class="box5 boxing">5</div>
+							<div class="box6 boxing">6</div>
+							<div class="box boxing"><img class="box-logo" src="images/mini_logo.png"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="multiple">
+				<div class="total">
+					<div class="amount">
+						<p class="blance"><small>BALANCE : </small><span id="balUpdate"></span></p>
+						<p class="bet"><small>TOTAL BET : </small><span id='totalBet'></span></p>
+					</div>
+					<p class="place">
+						Place your Bets
+						<span><button class="btn" onclick="clearAll()">CLEAR ALL </button></span>
+					</p>
+
+					<div class="main-container">
+						<div class="wrap">
+							<p class="col">1 - <span id="bal1"></span></p>
+							<p class="col">2 - <span id="bal2"></span></p>
+							<p class="col">3 - <span id="bal3"></span></p>
+							<div class="chips_bg">
+								<a><img src="images/1000.png" class="img-fluid"></a>
+								<a><img src="images/500.png" class="img-fluid"></a>
+								<a><img src="images/100.png" class="img-fluid"></a>
+							</div>
+						</div>
+
+						<div class="demo">
+							<div class="card1">
+								<div class="two">
+									<button class="btn1">1</button>
+									<button class="btn1">2</button>
+									<button class="btn1">3</button>
+									<button class="btn1"><img class="myimg" src="images/mini_logo.png"></button>
+								</div>
+								
+									<p class="fentastic">FENTASTIC 3</p>
+								
+								<div class="two">
+									<button class="btn2">4</button>
+									<button class="btn2">5</button>
+									<button class="btn2">6</button>
+									<button class="btn2"><img class="myimg" src="images/mini_logo.png"></button>
+
+								</div>
+							</div>
+
+							<div class="wrap1">
+								<p class="col1">4 - <span id="bal4"></span></p>
+								<p class="col1">5 - <span id="bal5"></span></p>
+								<p class="col1">6 - <span id="bal6"></span></p>
+								<div class="chips_bg1">
+									<a><img src="images/50.png" class="img-fluid1"></a>
+									<a><img src="images/25.png" class="img-fluid1"></a>
+									<a><img src="images/10.png" class="img-fluid1"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>	
+</body>
+
+</html> 
+

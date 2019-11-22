@@ -1,0 +1,39 @@
+
+body,html{
+        padding: 0;
+        margin:0;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+      }
+.bg_video {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+.fa{
+      border: 1px solid #383737;
+    border-radius: 50%;
+    padding: 4px;
+    background: #0009;
+}
+
+#footer {
+    bottom: 0;
+    width: 98%;/*
+    position: absolute;*/
+    height: $height-footer;
+}
+/*.footer-block {
+  margin: 20px 20px;
+}*/
+.footer-icons .fa{
+      border: 1px solid #383737;
+    border-radius: 2%;
+    padding: 4px;
+    background: #0009;
+}

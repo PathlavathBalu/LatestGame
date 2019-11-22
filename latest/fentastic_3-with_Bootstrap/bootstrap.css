@@ -1,0 +1,82 @@
+#video-background {
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+.container-fluid {
+    position: absolute;
+    bottom: 0%;
+}
+.logo {
+    /* width: 20%; */
+    height: 200px;
+}
+.box {
+    width: 20%;
+    height: 80px;
+    text-align: center;       
+
+}
+.box1{
+background: #67a4c1;
+}
+.box2{
+background: #cabe34;
+
+}
+.box3{
+background: #722b37;
+
+}
+.box4{
+background: #4c914f;
+
+}
+.box5{
+background: #324292;
+
+}
+.box6{
+background: #462751;
+
+}
+.box-logo {
+    width: 60px;
+    height: 40px;    
+}
+.box0 {
+    background: #628462;
+}
+.mid-box {
+    width: 20%;
+    height: 40px;
+}
+.chips {
+    width: 58%;
+    height: 30px;
+    margin-top: 0;
+    margin-left: 3px;
+}
+.btn img{
+    width: 20px;
+    border-radius: 50%;
+}
+
+
+/* @media only screen and (max-width: 700px) {
+    .logo {
+        width: 180px;
+        height: 80px;
+    }
+} */
+/* @media only screen and (max-width: 1100px) {
+    #video-background {
+        max-width: 100%;
+        height: auto;
+        position: fixed;
+    }
+} */

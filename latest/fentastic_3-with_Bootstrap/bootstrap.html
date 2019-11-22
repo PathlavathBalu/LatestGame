@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FENTASTIC 3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <video autoplay loop id="video-background" muted plays-inline>
+        <source src="video/bgvideo.mp4">
+    </video>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class=" col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        <img class="img-fluid logo w-100 ml-4"
+                            src="images/colorful-casino-chips-on-transparent-600w-448843981.jpg" alt="Responsive image">
+                    </div>
+                    <div class="col-10">
+                        <div class="d-flex flex-nowrap flex-row  text-white">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-2 border border-danger box box1">
+                                <h3 class="mt-2">1</h3>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-2 border border-danger box box2">
+                                <h3 class="mt-2">2</h3>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-2 border border-danger box box3">
+                                <h3 class="mt-2">3</h3>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-2 border border-danger box box0">
+                                <img class="box-logo img-fluid rounded-circle mt-2" src="images/mini_logo.png">
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-nowrap flex-row">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-2 border border-danger bg-dark mid-box">
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-2 border border-danger bg-dark mid-box">
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-2 border border-danger bg-dark mid-box">
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-2 border border-danger bg-dark mid-box">
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-nowrap flex-row bd-highlight text-white">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-2 border border-danger box box4">
+                                <h3 class="mt-2">4</h3>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-2 border border-danger box box5">
+                                <h3 class="mt-2">5</h3>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-2 border border-danger box box6">
+                                <h3 class="mt-2">5</h3>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 p-2 border border-danger box box0">
+                                <img class="box-logo img-fluid rounded-circle mt-2" src="images/mini_logo.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="col-12 d-flex flex-nowrap justify-content-between bg-dark p-1 text-white">
+                    <div>BALANCE:</div>
+                    <div>TOTAL BET:</div>
+                </div>
+
+                <div class="col-12 d-flex flex-nowrap justify-content-between bg-warning p-0 text-white">
+                    <div class="text-center">place Your Bets:</div>
+                    <div><button class="button bg-danger border border-none text-white">CLEAR ALL</button></div>
+                </div>
+                <div class="d-flex flex-nowrap">
+                    <div class="col-3 text-white">
+                        <div class="pb-3">1-</div>
+                        <div class="pb-3">2-</div>
+                        <div class="pb-2">3-</div>
+                        <div class="d-flex bg-danger p-1">
+                            <a><img src="images/1000.png" class="img-fluid rounded-circle chips"></a>
+                            <a><img src="images/500.png" class="img-fluid rounded-circle chips"></a>
+                            <a><img src="images/100.png" class="img-fluid rounded-circle chips"></a>
+                        </div>
+                    </div>
+                    <div class="col-6 mt-1">
+                        <div class="btn-group">
+                            <button class="btn btn-danger p-lg-3 p-sm-2 p-xs col-xs">1</button>
+                            <button class="btn btn-danger p-lg-3 p-sm-2 p-xs col-xs">2</button>
+                            <button class="btn btn-danger p-lg-3 p-sm-2 p-xs col-xs">3</button>
+                            <button class="btn btn-danger p-lg-3 p-sm-2 p-xs col-xs"><img
+                                    src="images/mini_logo.png"></button>
+                        </div>
+
+                        <div class="btn-group text-center bg-danger middle-row ml-3">
+                            <p class="text-center text-white middle-row-title small pr-lg-5 pr-md-0 pr-sm-0 pr-xs pl-3">
+                                FENTASTIC 3</p>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-danger p-lg-3 p-sm-2 p-xs col-xs">4</button>
+                            <button class="btn btn-danger p-lg-3 p-sm-2 p-xs col-xs">5</button>
+                            <button class="btn btn-danger p-lg-3 p-sm-2 p-xs col-xs">6</button>
+                            <button class="btn btn-danger p-lg-3 p-sm-2 p-xs col-xs"><img
+                                    src="images/mini_logo.png"></button>
+                        </div>
+                    </div>
+                    <div class="col-3 text-white">
+                        <div class="pb-3">1-</div>
+                        <div class="pb-3">2-</div>
+                        <div class="pb-2">3-</div>
+                        <div class="d-flex bg-danger p-1 img-right">
+                            <a><img src="images/1000.png" class="img-fluid  rounded-circle chips"></a>
+                            <a><img src="images/500.png" class="img-fluid  rounded-circle chips"></a>
+                            <a><img src="images/100.png" class="img-fluid  rounded-circle chips"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
